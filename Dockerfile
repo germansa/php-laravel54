@@ -32,7 +32,8 @@ RUN apk --no-cache add \
         php7-pcntl \
         php7-tokenizer \
         openssh-client \
-        php7-xmlwriter
+        php7-xmlwriter \
+        php7-tokenizer
 
 WORKDIR /tmp
 
